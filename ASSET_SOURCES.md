@@ -21,3 +21,13 @@ Facility photos are resized and converted to WebP. Food images, logo and JCCS vi
 - https://www.city.chiba.jp/keizainosei/keizai/ichiba/kansya-day.html
 
 Stay prices and inclusions are based on supplied advertising materials and organizer information. General facility admission and stay package ticket conditions must be distinguished.
+
+## Road trip redesign — 2026-10-31
+
+- roadtrip-hero.webp / roadtrip-hero-1000.webp: Existing project advertising artwork, `work/hero_v15.png`, optimized for the web. Illustrative overnight-stay image; not a photograph of the actual venue or a promise of site equipment/layout. Identified as an image on the page.
+- stay-field.webp: Official multipurpose-field facility photo, https://sunsetbeachpark.jp/wp-content/uploads/2026/08/multi-purpose-field_img01.jpg
+- Inline camper van, sun and navigation icons: original SVG line graphics.
+
+Added contextual links to the official park access page, food/cafe guide, beach, multipurpose field, dog run, park event list and digital map. Each facility is linked beside its description. Google Maps links identify general destinations and are not presented as event-specific arrival gates.
+
+External destinations checked 2026-10-31. Facility/organizer/map links responded successfully; the Chiba City market page was verified with web access because the bundled Python certificate store could not validate its certificate chain. The generic JCCS URL was also confirmed in the organizer's release.
