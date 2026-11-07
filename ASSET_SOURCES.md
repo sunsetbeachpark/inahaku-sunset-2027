@@ -31,3 +31,9 @@ Stay prices and inclusions are based on supplied advertising materials and organ
 Added contextual links to the official park access page, food/cafe guide, beach, multipurpose field, dog run, park event list and digital map. Each facility is linked beside its description. Google Maps links identify general destinations and are not presented as event-specific arrival gates.
 
 External destinations checked 2026-10-31. Facility/organizer/map links responded successfully; the Chiba City market page was verified with web access because the bundled Python certificate store could not validate its certificate chain. The generic JCCS URL was also confirmed in the organizer's release.
+
+## Transparent food assets — 2026-11-07
+
+- garden-salad-transparent.png: Existing CCM salad artwork (`work/recovered_900.png`), cleaned with image editing to remove stray background lines; transparent PNG.
+- hot-sand-transparent.png: Original supplied transparent OHANA BATAKE boxed dish (`work/ohana_original_supplied_cutout.png`), reused without generative editing.
+- These replace the earlier cropped proof images on the food section. Full plate and box are displayed without cropping. Food images remain identified as serving illustrations.

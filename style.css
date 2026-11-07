@@ -993,8 +993,9 @@ h3 {
 }
 .food-photo>img {
   width:100%;
-  aspect-ratio:1.65;
-  object-fit:cover
+  aspect-ratio:1.4;
+  object-fit:contain;
+  padding:18px 8px 28px
 }
 .food-clock {
   position:absolute;
@@ -2534,7 +2535,7 @@ dialog>.button {
     left:15px
   }
   .food-photo>img {
-    aspect-ratio:1.6
+    aspect-ratio:1.4
   }
   .food-description {
     padding-top:19px
