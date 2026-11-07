@@ -3156,3 +3156,39 @@ dialog>.button {
     display:none
   }
 }
+
+/* Full event names, retaining the approved hero and navigation design. */
+.hero-event-line {
+  display: block;
+  font-size: clamp(24px, 2.55vw, 36px);
+  line-height: 1.65;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+.hero-event-name, .hero-event-after {
+  display: inline-block;
+}
+.booking-body > h3 {
+  font-size: 16px;
+}
+@media (max-width: 650px) {
+  .hero-event-line {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .hero-event-after {
+    display: block;
+  }
+  .booking-body > h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-event-line {
+    font-size: 17px;
+  }
+}
+
+.booking-body > h3 > span {
+  display: block;
+}
