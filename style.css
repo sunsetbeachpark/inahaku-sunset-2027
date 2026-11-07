@@ -3204,3 +3204,10 @@ dialog>.button {
 .guide-row p+p { margin-top:12px; }
 .guide-row a[href^="mailto:"] { text-decoration:underline; }
 @media(max-width:650px){.guide-table{font-size:10px}.guide-table th,.guide-table td{padding:10px 6px}.guide-row ul{font-size:12px}}
+
+/* Distinguish the optional equipped TAKIBI plan from self-managed fires. */
+.scene-plan-note { display:none; position:absolute; top:16px; left:16px; right:16px; margin:0; padding:12px 16px; color:var(--ink); background:var(--paper); font-size:12px; line-height:1.8; z-index:2; }
+.journey-section[data-active-scene=fire] .scene-plan-note { display:block; }
+.stop-copy>p.fire-requirement { padding:16px; border:1px solid currentColor; opacity:1; }
+.mobile-fire-caption { display:none; }
+@media (max-width:650px) { .mobile-fire-caption { display:block; grid-column:2; margin:0; font-size:11px; line-height:1.8; } }

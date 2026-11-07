@@ -71,6 +71,7 @@ function setScene(index) {
   if (index === activeScene || !journey) return;
   activeScene = index;
   journey.dataset.period = stops[index].dataset.period;
+  journey.dataset.activeScene = stops[index].dataset.scene;
   document.querySelectorAll('[data-scene-link]').forEach(link => {
     if (link.dataset.sceneLink === stops[index].dataset.scene) link.setAttribute('aria-current', 'step');
     else link.removeAttribute('aria-current');
