@@ -3192,3 +3192,14 @@ dialog>.button {
 .booking-body > h3 > span {
   display: block;
 }
+
+.guide-table-wrap { margin:20px 0; max-width:100%; overflow-x:auto; }
+.guide-table { border-collapse:collapse; width:100%; font-size:12px; }
+.guide-table caption { text-align:left; font-weight:700; margin-bottom:10px; }
+.guide-table th,.guide-table td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--line); }
+.guide-table thead { background:#e8e1d1; }
+.guide-row h3 { font-size:16px; margin:20px 0 8px; }
+.guide-row ul { padding-left:20px; font-size:13px; }
+.guide-row p+p { margin-top:12px; }
+.guide-row a[href^="mailto:"] { text-decoration:underline; }
+@media(max-width:650px){.guide-table{font-size:10px}.guide-table th,.guide-table td{padding:10px 6px}.guide-row ul{font-size:12px}}
