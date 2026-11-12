@@ -38,9 +38,7 @@ if (menuButton && mobileNav) {
   matchMedia('(min-width: 901px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 }
 // Native dialogs retain keyboard focus and restore it to their opening button.
-const reservationDialog = document.getElementById('reservation-dialog');
 const sourcesDialog = document.getElementById('sources-dialog');
-document.querySelectorAll('[data-reservation]').forEach(button => button.addEventListener('click', () => reservationDialog?.showModal()));
 document.querySelectorAll('[data-sources]').forEach(button => button.addEventListener('click', () => sourcesDialog?.showModal()));
 document.querySelectorAll('dialog').forEach(dialog => {
   dialog.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', () => dialog.close()));
