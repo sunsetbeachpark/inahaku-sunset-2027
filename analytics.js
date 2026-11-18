@@ -7,9 +7,9 @@
   window['ga-disable-' + measurementId] = optedOut;
 
   document.querySelectorAll('[data-analytics-toggle]').forEach(button => {
-    button.textContent = optedOut ? 'アクセス解析を再開する' : 'このブラウザでアクセス解析を停止する';
+    button.textContent = optedOut ? 'アクセス解析を再開する' : 'アクセス解析を停止する';
     const status = document.getElementById('analytics-status');
-    if (status) status.textContent = optedOut ? 'このブラウザではアクセス解析を停止しています。' : 'このブラウザではアクセス解析が有効です。';
+    if (status) status.textContent = optedOut ? 'このブラウザではアクセス解析を停止しています。' : '';
     button.addEventListener('click', () => {
       try {
         localStorage.setItem(optOutKey, String(!optedOut));
